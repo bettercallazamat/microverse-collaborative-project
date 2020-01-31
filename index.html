@@ -22,8 +22,9 @@
     <div id="tickets">
       <iframe id="video" width="560" height="315" src="https://www.youtube.com/embed/9vgar9pInkg" 
       frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-      <form id="form">
-        <input type='email' id='email' value='email'/>
+      <form id="form" action="https://www.freecodecamp.com/email-submit" method="POST">
+        <input type='email' id='email' name="email" placeholder="Enter your email"/>
+        <input type="submit" id="submit">
       </form>
     </div>
     <div id="schedule">
