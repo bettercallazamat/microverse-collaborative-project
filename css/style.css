@@ -19,3 +19,25 @@ nav a {
     color: white;
     text-decoration: none;
 }
+
+#tickets
+{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+
+form
+{
+    border: 3px solid black;
+    padding: 20px;
+    margin-left: 20px;
+    text-align: center;
+}
+input
+{
+    width: 200px;
+
+}
